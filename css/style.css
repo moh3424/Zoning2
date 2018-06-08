@@ -1,0 +1,98 @@
+body{
+    background: greenyellow;
+    font-family: 'Crete Round', serif;
+    margin: 0 auto;
+}
+#container{
+    background: white;
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    min-height: 500px;
+    background: url('../img/woddPlank.jpg');
+    /* background: url('../img/cerf.png') no-repeat center; */
+}
+nav ul{/* pour le positionement adroite de la nav */
+    float: right;
+  
+}
+li{
+    display: inline/* affichage en ligne */;
+    padding: 4px;
+}
+h1{
+    float: left;
+    padding-left:50px;
+    clear: right;/*  cette ligne permet de remettre le flu normal */
+}
+section{
+    min-height: 500px;
+    max-height:500px ;
+}
+
+.droite{/* classe droite pour un flottement adroite */
+    float: right;
+}
+.gauche{/* classe droite pour un flottement agauche*/
+    float: left;
+}
+.imgcerf{/* pour centrer l'image cerf */
+   display: block;
+   padding-top: 100px;
+   padding-left: 150px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.droite h2{/* positionnement de h2 de la classe droite */
+    position: relative;
+    width: 200px;
+    right: 80px;
+    padding: 10px;
+}
+.gauche h2{/* positionnement de h2 de la classe gauche */
+    position: relative;
+    width: 200px;
+    left: 40px;
+    padding: 10px;
+}
+
+.imgg{/* pour centrer l'image de la classe droit */
+    display: block;
+    padding-left: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgg1{/* pour centrer l'image la classe gauche */
+    display: block;
+    padding-right: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+i{
+    float: right;
+    padding: 10px;
+    clear: left;
+    color:red;
+}
+.icon{
+  
+}
+.clear{
+    clear: both;
+}
+footer{
+    background: url('../img/pattern.jpg') repeat;
+    margin: 0 auto;
+    width: 1000px;
+    height: 300px;
+}
+div.footleft{
+    margin:0 auto;
+    padding-left: 40px;
+    /* text-align: center; */
+    line-height: 1.5em;/* l'espace entre les lignes */
+    clear: left; 
+    /* float: left; */
+}
+ 
