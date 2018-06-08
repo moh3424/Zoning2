@@ -37,20 +37,23 @@ section{
 .gauche{/* classe droite pour un flottement agauche*/
     float: left;
 }
-.imgcerf{/* pour centrer l'image cerf */
+.fas, .imgcerf{/* pour centrer l'image cerf */
    display: block;
    padding-top: 100px;
    padding-left: 150px;
    margin-left: auto;
    margin-right: auto;
 }
-.droite h2{/* positionnement de h2 de la classe droite */
+.droite p, droite h2{/* positionnement de h2 de la classe droite */
     position: relative;
     width: 200px;
     right: 80px;
     padding: 10px;
 }
-.gauche h2{/* positionnement de h2 de la classe gauche */
+p{
+    text-align: center;
+}
+.gauche p, .gauche h2{/* positionnement de h2 de la classe gauche */
     position: relative;
     width: 200px;
     left: 40px;
@@ -65,16 +68,26 @@ section{
 }
 .imgg1{/* pour centrer l'image la classe gauche */
     display: block;
-    padding-right: 80px;
+    padding-right: 200px;
     margin-left: auto;
     margin-right: auto;
+}
+h1, h3, h4, h5{
+    font-style: italic;
+    
 }
 i{
     float: right;
     padding: 10px;
     clear: left;
     color:red;
+    font-size: 20px;
 }
+ /* .fas{
+    bottom: 0px;
+    display:block;
+    left: 150px;
+}  */
 .icon{
   
 }
@@ -84,10 +97,9 @@ i{
 footer{
     background: url('../img/pattern.jpg') repeat;
     margin: 0 auto;
-    width: 1000px;
     height: 300px;
 }
-div.footleft{
+.footleft{
     margin:0 auto;
     padding-left: 40px;
     /* text-align: center; */
