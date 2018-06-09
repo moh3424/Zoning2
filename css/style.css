@@ -27,8 +27,15 @@ h1{
     clear: right;/*  cette ligne permet de remettre le flu normal */
 }
 section{
-    min-height: 500px;
-    max-height:500px ;
+    margin: 0 auto;
+    min-height: 400px;
+    max-height:400px ;
+}
+.centre{
+    position: relative;
+    right: 500px;
+    top: 150px;
+    font-size: 40px;
 }
 
 .droite{/* classe droite pour un flottement adroite */
@@ -37,26 +44,28 @@ section{
 .gauche{/* classe droite pour un flottement agauche*/
     float: left;
 }
-.fas, .imgcerf{/* pour centrer l'image cerf */
-   display: block;
-   padding-top: 100px;
-   padding-left: 150px;
-   margin-left: auto;
-   margin-right: auto;
+.imgcerf{/* pour centrer l'image cerf */
+    display: block;
+    padding-top: 100px;
+    padding-left: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.droite p, droite h2{/* positionnement de h2 de la classe droite */
+.droite p, .droite h2{/* positionnement de h2 de la classe droite */
     position: relative;
-    width: 200px;
-    right: 80px;
+    /* width: 200px; */
+    left: 20px;
     padding: 10px;
 }
 p{
     text-align: center;
 }
+
 .gauche p, .gauche h2{/* positionnement de h2 de la classe gauche */
     position: relative;
-    width: 200px;
-    left: 40px;
+    /* text-align: center; */
+    /* width: 200px; */
+    left: 60px;
     padding: 10px;
 }
 
@@ -72,7 +81,7 @@ p{
     margin-left: auto;
     margin-right: auto;
 }
-h1, h3, h4, h5{
+h1, h3, h4, h5, p{
     font-style: italic;
     
 }
@@ -83,28 +92,27 @@ i{
     color:red;
     font-size: 20px;
 }
- /* .fas{
-    bottom: 0px;
+.fas{
     display:block;
-    left: 150px;
-}  */
-.icon{
-  
-}
-.clear{
+    clear: right;
+} 
+
+/* .clear{
     clear: both;
-}
+} */
 footer{
     background: url('../img/pattern.jpg') repeat;
-    margin: 0 auto;
-    height: 300px;
+    /* margin: 0 auto; */
+    min-height: 400px;
+    max-height: 400px;
 }
 .footleft{
-    margin:0 auto;
-    padding-left: 40px;
+    /* margin:0 auto; */
+    padding-left: 50px;
+    padding-top: 50px;
     /* text-align: center; */
     line-height: 1.5em;/* l'espace entre les lignes */
-    clear: left; 
+    /* clear: left;  */
     /* float: left; */
 }
  
