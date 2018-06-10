@@ -73,17 +73,13 @@ div{
     left: -60px;
     padding: 1px;
 }
-/* div .droite{
-    padding-left: 10px;
-} */
+
 p{
     text-align: center;
 }
 
 .gauche p, .gauche h2{/* positionnement de h2 de la classe gauche */
     position: relative;
-    /* text-align: center; */
-    /* width: 200px; */
     left: 60px;
     padding: 1px;
 }
@@ -102,8 +98,44 @@ p{
 }
 h1, h3, h4, h5, p{
     font-style: italic;
-    
+
 }
+h4, h5{
+    position: relative;
+    font-weight: 300;
+    line-height: 0.8em;
+}
+
+.droite .bordure{
+    position: relative;
+    left: -70px;
+} 
+div .bordure{
+ 
+   position: relative;
+   left: 60px;
+   top: 70px;
+   width: 20px;
+   /* border: 1px solid red; */
+   background: red;
+   height: 5px;
+}
+.rect h4{
+    position: relative;
+    left: 90px;
+
+}
+.droite h4{
+    position: relative;
+    left: 15px;
+}
+.touche{
+    position: relative;
+    color: red;
+    left: 120px;
+  
+}
+
 i{
     float: right;
     padding: 10px;
@@ -111,16 +143,13 @@ i{
     color:red;
     font-size: 20px;
 }
-/* .fas{
-    display:block;
-    clear: right;
-}  */
 
-.clear{
+/* .clear{
     clear: both;
-}
+} */
 footer{
     background: url('../img/pattern.jpg') repeat;
+    /* z-index: -100; */
     /* margin: 0 auto; */
     min-height: 400px;
     max-height: 400px;
@@ -133,5 +162,34 @@ footer{
     line-height: 1.5em;/* l'espace entre les lignes */
     /* clear: left;  */
     /* float: left; */
+}
+.footleftcenter{
+    position: relative;
+    left:40px;
+}
+.fbordure{
+    position: relative;
+    background: red;
+    width: 30px;
+    bottom: 25px;
+    height: 5px;
+    /* z-index: 1000; */
+    right: 390px;
+}
+.hbordure{
+    position: relative;
+    background: red;
+    width: 30px;
+    top: 80px;
+    height: 5px;
+    /* z-index: 1000; */
+    right: 390px;
+
+}
+h3{
+    position: relative;
+    left: 20px;
+    padding: 30px;
+
 }
  
